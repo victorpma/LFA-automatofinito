@@ -21,7 +21,7 @@ def main():
     while True:
         print("----------------- MENU -----------------")
         print("ATENÇÃO: Antes de iniciar os testes, insira seu autômato na pasta 'InsiraSeuAutomatoAqui', lá possui um exemplo, mas caso queira testar com o exemplo base, fique à vontade ;)")
-        print("\n1- Testar Autômato\n2- Minimizar Autômato\n3- Finalizar")
+        print("\n1- Testar Autômato\n2- Finalizar")
 
         optionInput = int(input("\nEscolha uma opção acima: "))
 
