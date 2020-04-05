@@ -7,6 +7,10 @@
 
 > A implementação do não-determinístico com transição vazia é opcional.  
 
+## Demo
+
+![](demo.gif)
+
 ## Como funciona a aplicação
 
 Para cadastrar um autômato na aplicação será necessário formatar um JSON localizado na pasta raiz do projeto ```/InsiraSeuAutomatoAqui/automato.json```, esse arquivo contém os dados do Autômato, abaixo um exemplo:
@@ -50,4 +54,6 @@ No JSON acima possui dados necessários para que a aplicação consiga ler os da
 
 O exemplo acima consiste em um autômato finito não-determinístico que reconhece a linguagem do alfabeto {a, b} onde palavras contenham a's e b's sempre de forma alternada: Ou seja palavras do tipo: ababab, ababa, bababa, babab e assim por diante. Segue uma figura ilustrando o autômato:
 
-![Exemplo Autômato](/InsiraSeuAutomatoAqui/automatoexemplo.JPG)
+<h4 align="center">
+  <img class="text-center" src="/InsiraSeuAutomatoAqui/automatoexemplo.JPG"/>
+</h4>
